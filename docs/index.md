@@ -4,6 +4,8 @@
 
 Helping businesses eliminate manual work, automate reporting, and make better decisions through data.
 
+We design business solutions that reduce manual effort, improve visibility, and enable better decision-making through analytics, automation, and AI.
+
 ---
 
 ### What We Do
