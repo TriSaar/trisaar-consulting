@@ -26,15 +26,26 @@
      Background Colors
   ======================================================= */
 
-  --color-background: #FFFFFF;
-  --color-surface: #F8FAFC;
+  --color-background: #FAFAFA;
+  --color-surface: #FFFFFF;
   --color-surface-dark: #F1F5F9;
+  --glass-background: rgba(255,255,255,.75);
+  --glass-border: rgba(255,255,255,.55);
+  --glass-blur: 18px;
 
   /* =======================================================
      Borders
   ======================================================= */
 
   --color-border: #E5E7EB;
+  --focus-ring: 0 0 0 4px rgba(220,38,38,.18);
+
+/* =======================================================
+     Accent Colors
+  ======================================================= */
+
+--color-accent:#991B1B;
+
 
   /* =======================================================
      Typography
@@ -51,7 +62,7 @@
   --font-family-heading: var(--font-family-base);
 
   /* Font Sizes */
-
+  --text-hero: clamp(3.8rem, 6vw, 5.8rem);        /* 64px */
   --text-xs: 0.75rem;      /* 12px */
   --text-sm: 0.875rem;     /* 14px */
   --text-base: 1rem;       /* 16px */
