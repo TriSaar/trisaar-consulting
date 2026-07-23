@@ -38,11 +38,15 @@ nav:
   - Home: index.md
 
 extra_css:
+extra_css:
   - assets/css/variables.css
   - assets/css/base.css
+  - assets/css/layout.css
   - assets/css/components.css
   - assets/css/homepage.css
+  - assets/css/animations.css
   - assets/css/utilities.css
+
 
 extra_javascript:
   - assets/js/main.js

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% if page.is_homepage %}
+
+        {% include "partial/home/hero.html" %}
+        {% include "partial/home/stats.html" %}
+
+    {% else %}
+
+        {{ super() }}
+
+    {% endif %}
+
+{% endblock %}
