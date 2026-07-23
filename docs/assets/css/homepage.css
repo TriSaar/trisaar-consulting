@@ -6,9 +6,14 @@
     align-items: center;
     padding: var(--space-10) 0;
     background:
-        radial-gradient(circle at 90% 20%, rgba(239, 68, 68, 0.10), transparent 35%),
-        radial-gradient(circle at 10% 80%, rgba(239, 68, 68, 0.06), transparent 30%),
-        var(--color-background);
+    radial-gradient(circle at 80% 20%,
+    rgba(220,38,38,.08),
+    transparent 30%),
+    radial-gradient(circle at 10% 80%,
+    rgba(220,38,38,.05),
+    transparent 40%),
+
+    #fafafa;
 }
 
 .hero-grid {
@@ -18,17 +23,21 @@
     align-items: center;
 }
 
-.hero-content h1 {
-    margin: var(--space-4) 0;
-    max-width: 12ch;
-    line-height: 1.05;
+.hero-content h1{
+    font-size: clamp(3.8rem,6vw,5.8rem);
+    line-height:.95;
+    letter-spacing:-3px;
+    margin-bottom:1.5rem;
+    font-weight:800;
+    color:#111827;
 }
 
-.hero-content p {
-    font-size: var(--text-lg);
-    color: var(--color-muted);
-    max-width: 560px;
-    margin-bottom: var(--space-6);
+.hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+    max-width:600px;
+    color:#6b7280;
+    margin-bottom:2.5rem;
 }
 
 .hero-actions {

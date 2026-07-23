@@ -232,11 +232,3 @@ main {
     width: 100%;
 
 }
-
-.container-wide {
-
-    width: min(92%, 1400px);
-
-    margin-inline: auto;
-
-}
