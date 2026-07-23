@@ -1,0 +1,11 @@
+site_name: TriSaar Consulting
+site_description: Analytics, Automation & AI Consulting
+site_author: TriSaar
+site_url: https://trisaarconsulting.github.io
+
+theme:
+  name: material
+  language: en
+
+nav:
+  - Home: index.md
