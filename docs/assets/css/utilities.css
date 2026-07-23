@@ -1,0 +1,23 @@
+.text-center {
+    text-align: center;
+}
+
+.mt-lg {
+    margin-top: 3rem;
+}
+
+.mb-lg {
+    margin-bottom: 3rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}

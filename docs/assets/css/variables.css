@@ -1,0 +1,43 @@
+:root {
+
+    /* ===== Brand ===== */
+
+    --ts-primary: #E11D48;
+    --ts-primary-hover: #BE123C;
+
+    /* ===== Background ===== */
+
+    --ts-bg: #FFFFFF;
+    --ts-surface: #F8FAFC;
+
+    /* ===== Typography ===== */
+
+    --ts-text: #111827;
+    --ts-muted: #6B7280;
+
+    /* ===== Borders ===== */
+
+    --ts-border: #E5E7EB;
+
+    /* ===== Radius ===== */
+
+    --ts-radius-sm:8px;
+    --ts-radius-md:12px;
+    --ts-radius-lg:18px;
+
+    /* ===== Shadow ===== */
+
+    --ts-shadow-sm:
+        0 2px 8px rgba(0,0,0,.05);
+
+    --ts-shadow-md:
+        0 8px 24px rgba(0,0,0,.08);
+
+    --ts-shadow-lg:
+        0 16px 48px rgba(0,0,0,.12);
+
+    /* ===== Width ===== */
+
+    --ts-content-width:1200px;
+
+}

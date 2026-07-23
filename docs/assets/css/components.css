@@ -1,0 +1,43 @@
+.ts-card {
+    background: white;
+    border: 1px solid var(--ts-border);
+    border-radius: var(--ts-radius-md);
+    padding: 2rem;
+    transition: .25s ease;
+}
+
+.ts-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--ts-shadow-md);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: .85rem 1.6rem;
+    border-radius: var(--ts-radius-sm);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.btn-primary {
+    background: var(--ts-primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--ts-primary-hover);
+}
+
+.btn-secondary {
+    border: 2px solid var(--ts-primary);
+    color: var(--ts-primary);
+    background: transparent;
+}
+
+.btn-secondary:hover {
+    background: var(--ts-primary);
+    color: white;
+}

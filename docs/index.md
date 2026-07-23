@@ -1,25 +1,27 @@
-# TriSaar Consulting
+<div class="hero container">
 
-## Analytics. Automation. AI.
+<h1 class="hero-title">
+Transform Data Into Business Advantage
+</h1>
 
-Helping businesses eliminate manual work, automate reporting, and make better decisions through data.
+<p class="hero-text">
 
-We design business solutions that reduce manual effort, improve visibility, and enable better decision-making through analytics, automation, and AI.
+TriSaar Consulting helps businesses automate operations,
+modernize reporting and unlock better decisions through
+Analytics, Automation and AI.
 
----
+</p>
 
-### What We Do
+<div class="hero-actions">
 
-- Excel Automation
-- VBA Development
-- Python Automation
-- Business Intelligence Dashboards
-- Data Analytics
-- AI Workflow Automation
-- Business Process Automation
-- Reporting Automation
-- Financial Modeling Support
+<a class="btn btn-secondary" href="services/">
+Explore Services
+</a>
 
----
+<a class="btn btn-secondary" href="case-studies/">
+View Case Studies
+</a>
 
-> This website is currently under active development.
+</div>
+
+</div>
